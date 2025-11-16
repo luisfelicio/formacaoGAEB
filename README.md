@@ -28,17 +28,52 @@ Proporcionar uma introdução sólida à linguagem C através de **exemplos curt
 
 ## ⚙️ Configuração do Ambiente
 
-Antes de começar, certifica-te de que tens o compilador **gcc** instalado.
+Antes de começar, certifica-te de que tens o **Visual Studio Code** e o **compilador GCC** instalados.
 
-### 🐧 Linux / macOS
-```bash
-sudo apt install build-essential   # ou brew install gcc
-gcc --version
-```
+---
 
 ### 🪟 Windows
-Recomendado: usar **WSL** (Ubuntu) ou o compilador **MinGW**.  
-Guia detalhado: [`setup/instalar_compilador.md`](setup/instalar_compilador.md)
+
+1. **Instala o VS Code**  
+   🔗 [https://code.visualstudio.com/](https://code.visualstudio.com/)
+
+2. **Instala o compilador C (MinGW-w64)**  
+   🔗 [https://winlibs.com/](https://winlibs.com/)  
+   - Faz download da versão *UCRT 64-bit*  
+   - Extrai em `C:\mingw64`  
+   - Adiciona `C:\mingw64\bin` à variável de ambiente **PATH**
+
+3. **Testa no terminal do VS Code:**
+   ```bash
+   gcc --version
+   ```
+
+4. (Opcional) Instala a extensão **C/C++** da Microsoft no VS Code para suporte a IntelliSense e debug.
+
+Guia completo: [`setup/instalar_vscode.md`](setup/instalar_vscode.md)
+
+---
+
+### 🐧 Linux (Ubuntu/Debian/Fedora/etc.)
+
+1. **Instala o compilador GCC e Make:**
+   ```bash
+   sudo apt update
+   sudo apt install build-essential
+   ```
+
+2. **Instala o VS Code:**
+   ```bash
+   sudo snap install code --classic
+   ```
+
+3. **Verifica a instalação:**
+   ```bash
+   gcc --version
+   code --version
+   ```
+
+Agora já podes abrir o projeto no VS Code e compilar o código normalmente.
 
 ---
 
@@ -98,7 +133,8 @@ make
 
 📄 [Slides de apoio](recursos/slides.pdf)  
 📘 [Guia rápido de comandos C](recursos/guia_rapido_comandos.md)  
-💬 [Explicação detalhada de cada tema](exemplos/)
+💬 [Explicação detalhada de cada tema](exemplos/)  
+💻 [Instalar VS Code e extensões](setup/instalar_vscode.md)
 
 ---
 
