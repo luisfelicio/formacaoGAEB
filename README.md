@@ -50,8 +50,6 @@ Antes de começar, certifica-te de que tens o **Visual Studio Code** e o **compi
 
 4. (Opcional) Instala a extensão **C/C++** da Microsoft no VS Code para suporte a IntelliSense e debug.
 
-Guia completo: [`setup/instalar_vscode.md`](setup/instalar_vscode.md)
-
 ---
 
 ### 🐧 Linux (Ubuntu/Debian/Fedora/etc.)
