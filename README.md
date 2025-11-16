@@ -96,34 +96,40 @@ gcc hello.c -o hello && ./hello
 
 ---
 
-## 🧪 Mini-Projeto Final
+# 🧪 Exercício Final — Sistema de Pacientes
 
-Na pasta [`exercicio_final/`](exercicio_final/), encontrarás um pequeno **sistema de pacientes** que demonstra:
-- Uso de `structs`;
-- Vetores dinâmicos com `malloc`;
-- Filtros por valores (ex: glicemia);
-- Organização modular (`.h` + `.c`);
-- `Makefile` para compilação automatizada.
-
-Para compilar:
-```bash
-cd exercicio_final
-make
-./pacientes
-```
+Neste exercício vais pôr em prática tudo o que aprendeste:  
+`structs`, `pointers`, `malloc`, `free` e modularização com headers.
 
 ---
 
-## 💡 Dicas
+## 🧠 Objetivo
 
-- Usa `-Wall -Werror -g` para compilar com avisos e debug:
-  ```bash
-  gcc ficheiro.c -o programa -Wall -Werror -g
-  ```
-- Testa com `valgrind` para detetar memory leaks:
-  ```bash
-  valgrind ./programa
-  ```
+Criar um pequeno sistema de gestão de pacientes:
+- Guardar dados (nome, idade, glicemia);
+- Filtrar pacientes por glicemia;
+- Copiar listas de pacientes para uma nova estrutura;
+- Libertar corretamente a memória.
+
+---
+
+## 🧩 Funções a implementar
+
+- `criarPacientes(int n)` → aloca memória para um vetor de pacientes.  
+- `preencherPacientes(Paciente* lista, int n)` → pede dados via `scanf`.  
+- `listarPacientes(Paciente* lista, int n)` → imprime todos os pacientes.  
+- `filtrarGlicemia(Paciente* lista, int n, float limite)` → mostra apenas pacientes acima do limite.  
+- `copiarPacientes(Paciente* lista, int n)` → devolve uma cópia da lista original.  
+- `libertarPacientes(Paciente* lista)` → liberta a memória alocada.
+
+---
+
+## ⚙️ Compilar e correr
+
+```bash
+make
+./pacientes
+```
 
 ---
 
