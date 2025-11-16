@@ -81,7 +81,7 @@ Agora já podes abrir o projeto no VS Code e compilar o código normalmente.
 
 Clona o repositório:
 ```bash
-git clone https://github.com/<teu-utilizador>/formacao-c.git
+git clone https://github.com/<teu-utilizador>/formacaoGAEB.git
 cd formacao-c
 ```
 
@@ -129,21 +129,12 @@ make
 
 ---
 
-## 🧰 Recursos Extra
+## 👨‍💻 Autores
 
-📄 [Slides de apoio](recursos/slides.pdf)  
-📘 [Guia rápido de comandos C](recursos/guia_rapido_comandos.md)  
-💬 [Explicação detalhada de cada tema](exemplos/)  
-💻 [Instalar VS Code e extensões](setup/instalar_vscode.md)
-
----
-
-## 👨‍💻 Autor
-
-**Luís Felício**  
+**Duarte Rodrigues e Luís Felício**  
 📍 Universidade do Minho  
 💼 EPIC Júnior — Formação em C  
-📅 2025
+📅 18 de novembro de 2025
 
 ---
 
