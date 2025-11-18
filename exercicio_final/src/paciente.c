@@ -50,3 +50,20 @@ Paciente* copiarPacientes(Paciente* lista, int n) {
 void libertarPacientes(Paciente* lista) {
     // TODO: usar free()
 }
+
+/**
+ * @brief Aumenta a lista de pacientes usando realloc.
+ * @param lista ponteiro atual
+ * @param n ponteiro para o número atual de pacientes
+ * @param extra número de pacientes adicionais
+ * @return nova lista (pode mudar de endereço)
+ */
+Paciente* adicionarPacientes(Paciente* lista, int* n, int extra) {
+    // TODO: realocar memória
+    // Dica: lista = realloc(lista, (*n + extra) * sizeof(Paciente));
+
+    // TODO: preencher apenas os novos pacientes
+    // Ex: for (i = *n; i < *n + extra; i++) scanf(...)
+
+    return lista;
+}

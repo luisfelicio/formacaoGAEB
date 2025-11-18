@@ -14,5 +14,6 @@ void listarPacientes(Paciente* lista, int n);
 void filtrarGlicemia(Paciente* lista, int n, float limite);
 Paciente* copiarPacientes(Paciente* lista, int n);
 void libertarPacientes(Paciente* lista);
+Paciente* adicionarPacientes(Paciente* lista, int* n, int extra);
 
 #endif
