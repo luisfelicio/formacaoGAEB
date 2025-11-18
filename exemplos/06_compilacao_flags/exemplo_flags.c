@@ -8,10 +8,10 @@
  *  -g      → adiciona informações de debug (para usar com gdb / valgrind)
  *
  * Experimentos sugeridos:
- * 1️⃣  Compila SEM flags:             gcc exemplo_flags.c -o flags
- * 2️⃣  Compila COM avisos:            gcc exemplo_flags.c -Wall -o flags
- * 3️⃣  Compila COM avisos e erros:    gcc exemplo_flags.c -Wall -Werror -o flags
- * 4️⃣  Compila COM debug:             gcc exemplo_flags.c -Wall -Werror -g -o flags
+ * 1️⃣  Compila SEM flags:             gcc exemplo_flags.c -o
+ * 2️⃣  Compila COM avisos:            gcc exemplo_flags.c -Wall -o
+ * 3️⃣  Compila COM avisos e erros:    gcc exemplo_flags.c -Wall -Werror -o
+ * 4️⃣  Compila COM debug:             gcc exemplo_flags.c -Wall -Werror -g -o 
  *
  * Observa o que o compilador te diz em cada caso 👀
  */

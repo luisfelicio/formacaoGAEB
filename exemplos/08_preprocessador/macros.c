@@ -5,6 +5,6 @@
 
 int main() {
     float raio = 2.5;
-    printf("Área do círculo: %.2f\\n", AREA_CIRCULO(raio));
+    printf("Área do círculo: %.2f\n", AREA_CIRCULO(raio));
     return 0;
 }

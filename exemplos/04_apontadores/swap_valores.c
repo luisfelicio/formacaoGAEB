@@ -9,6 +9,6 @@ void swap(int *a, int *b) {
 int main() {
     int x = 5, y = 10;
     swap(&x, &y);
-    printf("x = %d, y = %d\\n", x, y);
+    printf("x = %d, y = %d\n", x, y);
     return 0;
 }

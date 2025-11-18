@@ -12,7 +12,7 @@ int main() {
         scanf("%d", &v[i]);
     }
 
-    printf("Números introduzidos:\\n");
+    printf("Números introduzidos:\n");
     for (int i = 0; i < n; i++) printf("%d ", v[i]);
 
     free(v);

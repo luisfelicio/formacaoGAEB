@@ -5,6 +5,6 @@ int main() {
     float altura = 1.78;
     char inicial = 'L';
 
-    printf("Idade: %d\\nAltura: %.2f\\nInicial: %c\\n", idade, altura, inicial);
+    printf("Idade: %d\nAltura: %.2f\nInicial: %c\n", idade, altura, inicial);
     return 0;
 }
