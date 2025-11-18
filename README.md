@@ -80,12 +80,7 @@ Agora já podes abrir o projeto no VS Code e compilar o código normalmente.
 Clona o repositório:
 ```bash
 git clone https://github.com/<teu-utilizador>/formacaoGAEB.git
-cd formacao-c
-```
-
-Testa o ambiente:
-```bash
-gcc setup/testar_ambiente.c -o testar && ./testar
+cd formacaoGAEB
 ```
 
 Compila o primeiro exemplo:
@@ -99,7 +94,7 @@ gcc hello.c -o hello && ./hello
 # 🧪 Exercício Final — Sistema de Pacientes
 
 Neste exercício vais pôr em prática tudo o que aprendeste:  
-`structs`, `pointers`, `malloc`, `free` e modularização com headers.
+`structs`, `pointers`, `malloc`, `free`, `realoc` e modularização com headers.
 
 ---
 
@@ -121,6 +116,7 @@ Criar um pequeno sistema de gestão de pacientes:
 - `filtrarGlicemia(Paciente* lista, int n, float limite)` → mostra apenas pacientes acima do limite.  
 - `copiarPacientes(Paciente* lista, int n)` → devolve uma cópia da lista original.  
 - `libertarPacientes(Paciente* lista)` → liberta a memória alocada.
+- `adicionarPacientes(Paciente* lista, int* n, int extra)` → realoca memória para adicionar mais pacientes.
 
 ---
 
